@@ -1,4 +1,5 @@
-let count = 2
-let count2 = 3
+const count = 8
 
-console.log(count + count2)
+for (let i = 0; i < count; i = i + 1) {
+    console.log(i);
+}
